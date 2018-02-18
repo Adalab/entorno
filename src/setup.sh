@@ -8,7 +8,7 @@ function is_ubuntu {
 
 if [[ is_osx ]]; then
   echo "Running Mac OS installation..."
-  source osx.sh
+  source mac.sh
 elif [[ is_ubuntu ]]; then
   echo "Running Ubuntu installation..."
 
